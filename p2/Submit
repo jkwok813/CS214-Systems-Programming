@@ -1,0 +1,11 @@
+This project was extremely difficult, as we were running short on time between learning the material and writing the code.
+When beginning, we wrote the add and insert methods separately to tokenize the WFD. However, we had a lot of trouble
+getting it so that it would calculate between each different file. That's why there's an unused int file inside
+of struct List. After a while, we figured it out and we got into refining our threads.
+Our threads also gave us a pretty big issue, we focused mostly on getting the threads to work
+with the defaults before looking at optional arguments. It worked up to a point, and then
+there was a major issue in which one of the analysis pthread_creates used filethread[x] instead
+of analysis somehow. We're not sure how such a silly mistake slipped into it, but it was resolved
+and it worked. However, we struggled greatly with directories and recursively adding files into it.
+Suffix optional argument was the hardest excluding directories, and we struggled to
+implement it into working. Bugs include directories not working. 

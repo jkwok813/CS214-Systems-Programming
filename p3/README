@@ -1,0 +1,15 @@
+Robert Jones, rlj80, Justin Kwok, jdk179 
+
+When we began writing, we referenced the sample code in creating and connecting the socket. 
+
+To test our code, we utilized nc and ./s to send test cases between a server and our client. 
+We wrote out tests on paper, and checked to see if it returned the right stuff from our
+alphabetically sorted linked list. When writing the code, we started by making sure
+that everything worked in order before writing out our error codes and print success statements
+through a large amount of printf statements to see what was being written and read from
+the linked list. We used a variety of tests such as the example listed on the p3r1.pdf
+document and our own test cases where we wrote random words with random keys and values and 
+tested those. 
+
+Overall, the biggest bug we ran into was a memleak that took a while to diagnose and 
+fix up. Through a mess of printf statements and markers, we eventually patched it up. 
