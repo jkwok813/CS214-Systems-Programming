@@ -1,5 +1,3 @@
-Robert Jones, rlj80, Justin Kwok, jdk179 
-
 When we began writing, we referenced the sample code in creating and connecting the socket. 
 
 To test our code, we utilized nc and ./s to send test cases between a server and our client. 
