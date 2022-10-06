@@ -1,5 +1,3 @@
-This project was made by Justin Kwok and Robert Jones. NetIDs: jdk179 and rlj80.
-
 To begin, we first took in file input and made it read each line. At first, we tried scanning in word by word but after we ran into
 some complications, we decided to read it line by line. The method we used didn't change much, we scanned in the strings and checked
 if it would overflow the width. We wrote the code over a couple times to fix various bugs. To test if the codes worked, we just had 
